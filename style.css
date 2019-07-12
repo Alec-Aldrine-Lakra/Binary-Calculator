@@ -1,0 +1,31 @@
+body{
+    width : 33%;
+ }
+ #res{
+     background-color: #d3d3d3;
+     border: solid;
+     color: #000;
+     height: 48px;
+     font-size: 20px;
+ }
+ #btn0,#btn1{
+     background-color: #90ee90;
+     color: #a52a2a;
+ }
+ #btnClr,#btnEql{
+     background-color: #006400;
+     color: #fff;
+ }
+ #btnSum,#btnSub,#btnDiv,#btnMul{
+     background-color: #000;
+     color: #f00;
+ }
+ button:nth-child(n)
+ {
+    position: relative;
+	width:25%;
+	height: 36px;
+	font-size: 18px;
+    margin: 0px;
+    float: left;
+ }
